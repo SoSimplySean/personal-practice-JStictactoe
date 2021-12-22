@@ -1,0 +1,30 @@
+body {
+  background-color: #6981c9;
+}
+
+.game__board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 454px;
+  height: 454px;
+  border: 2px solid black;
+  margin: 0px auto;
+}
+
+.game__field {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.game__field:hover {
+  background-color: #c8bfff;
+}
+
+/*# sourceMappingURL=index.de101254.css.map */
